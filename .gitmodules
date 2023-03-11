@@ -1,0 +1,4 @@
+[submodule "junxiong-website/public"]
+	path = junxiong-website/public
+	url = https://github.com/JunxiongYin/junxiongyin.github.io.git
+	branch = main
