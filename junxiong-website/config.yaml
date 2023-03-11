@@ -1,0 +1,28 @@
+baseurl: "/"
+languageCode: "en-us"
+title: "Junxiong Yin"
+theme: "hugo-xmin"
+googleAnalytics: ""
+disqusShortname: ""
+ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
+footnotereturnlinkcontents: "↩"
+
+menu:
+  main:
+    - name: Home
+      url: ""
+      weight: 1
+    - name: Resources
+      url: "resources"
+      weight: 2
+
+params:
+  description: "A website built through Hugo and blogdown."
+  footer: "[XMin Theme](https://themes.gohugo.io/themes/hugo-xmin/) | &copy; Junxiong Yin {Year}"
+
+markup:
+  highlight:
+    codeFences: false
+  goldmark:
+    renderer:
+      unsafe: true
